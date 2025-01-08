@@ -1,9 +1,9 @@
 # newWindowIsDefault
-Chrome (v3) extension to make links default to a new window instead of a new tab
+Chrome (v3) extension to make links open a new window instead of a new tab
 
 This minimalistic extension makes Chrome (mostly) tabless by default; to open a link with a tab now requires holding down **ctrl**.
 
-There already exist a few extensions on the Chrome store that attempt something similar, but with much added complexity to cover all edge cases, making them a pain inspect manually before installing. Given the constant dribble of news about malicious extensions I'm not installing anything I can't read first and understand. The code for this extension was about 20 lines before comments were added, and is extremely straightforward. I suggest you inspect it before installing it!
+There already exist a few extensions on the Chrome store that attempt something similar, but with much added complexity to cover all edge cases, making them a pain to inspect manually before installing. Given the constant dribble of news about malicious extensions I'm not installing anything I can't read first and understand. The code for this extension was about 20 lines before comments were added, and is extremely straightforward. I suggest you inspect it before installing it!
 
 # Installation 
 This is distributed as an unpacked extension to ensure it is easy to see all the code before installing it. Click the most recent release on the right-hand side of the screen; download and extract the source to a separate folder.

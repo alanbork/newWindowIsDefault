@@ -1,4 +1,4 @@
-// this code is applied to every NEWLY opened page after the extension is enabled.
+// this code is applied to every NEWLY opened page after the extension is enabled. V1.2
 
 function handleClick(event) { // Define a function to handle click events. This function will be called whenever a click event occurs within the document.
   let target = event.target;   // Get the element that was clicked.

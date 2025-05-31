@@ -1,4 +1,4 @@
-chrome.runtime.onMessage.addListener((message) => { // This function listens for messages from the content scripts.
+chrome.runtime.onMessage.addListener((message) => { // This function listens for messages from the content scripts. V1.2
   if (message && message.url) {  // Check if the received message has a URL property.
     try {  // Try to open the URL in a new window using the chrome API.
         chrome.windows.create({ url: message.url, focused: true, type: "normal" });
